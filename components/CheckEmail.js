@@ -1,7 +1,7 @@
 import jsonData from './data/whitelist.json';
 
-const loadData = () => JSON.parse(JSON.stringify(jsonData));
-const whiteEmails = loadData().emails
+const loadData = JSON.parse(JSON.stringify(jsonData));
+const whiteEmails = loadData.emails
 
 export default function checkEmail(testSession) {
   if (testSession) {

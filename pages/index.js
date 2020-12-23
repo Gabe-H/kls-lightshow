@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 import { useSession } from 'next-auth/client'
-import styles from '../styles/home.module.css'
+import styles from '../styles/Home.module.css'
 import checkEmail from '../components/CheckEmail'
 import Banner from '../components/Banner'
 

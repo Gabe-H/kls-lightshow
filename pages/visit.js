@@ -1,5 +1,6 @@
 import { Container } from 'react-bootstrap'
 import Banner from '../components/Banner'
+import Donate from '../components/Donate'
 import styles from '../styles/Visit.module.css'
 
 export default function visit() {
@@ -26,6 +27,7 @@ export default function visit() {
             className={styles.map}
           />
         </div>
+        <Donate/>
       </Container>
     </>
   )

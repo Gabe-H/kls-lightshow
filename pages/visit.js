@@ -13,7 +13,7 @@ export default function visit() {
           <br/>
           When you arrive, please tune your radio to <b>87.9 FM</b>.
           <br/>
-          It is also requested that you turn off your lights to leave the show enjoyable for everyone.
+          It is also requested that you check your headlights if others are present.
           <br/><br/>
           Enjoy!
         </p>
